@@ -14,7 +14,7 @@
 12.SELECT COUNT(order_id) FROM orders WHERE EXTRACT(YEAR FROM order_date) = 1997
 13.SELECT * FROM customers WHERE contact_title IN ('Owner', 'CEO')
 14.SELECT MAX(unit_price) FROM products
-15.
+15.SELECT AVG(EXTRACT(YEAR FROM AGE(birth_date))) FROM employees
 16.
 17.
 18.
