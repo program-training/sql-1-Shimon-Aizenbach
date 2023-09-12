@@ -15,7 +15,7 @@
 13.SELECT * FROM customers WHERE contact_title IN ('Owner', 'CEO')
 14.SELECT MAX(unit_price) FROM products
 15.SELECT AVG(EXTRACT(YEAR FROM AGE(birth_date))) FROM employees
-16.
+16.SELECT * FROM customers WHERE phone LIKE '%123%'
 17.
 18.
 19.
